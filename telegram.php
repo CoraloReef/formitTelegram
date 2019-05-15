@@ -9,7 +9,7 @@ $formName = $modx->getOption('formName', $formit->config, 'form-'.$modx->resourc
 // Get user IP
 $ip = $modx->getOption('REMOTE_ADDR', $_SERVER, '');
 
-#Data from form
+// Data from form
 $name = $values['name'];
 $phone = $values['phone'];
 
